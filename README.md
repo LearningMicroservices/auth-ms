@@ -45,6 +45,16 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Docker
+
+```bash
+# build image
+$ docker build -t auth-ms .
+
+# run container
+$ docker run -p 3000:3000 auth-ms
+```
+
 ## Run tests
 
 ```bash
